@@ -7,8 +7,6 @@ import { JsonpModule } from '@angular/http';
 /* components */
 import { CardComponent } from './components/card/card.component';
 import { FileTreeComponent } from './components/file-tree/file-tree.component';
-import { SwitchComponent } from './components/switch/switch.component';
-import { AlertComponent } from './components/alert/alert.component';
 
 @NgModule({
   imports: [
@@ -20,15 +18,11 @@ import { AlertComponent } from './components/alert/alert.component';
   ],
   declarations: [
     CardComponent,
-    FileTreeComponent,
-    SwitchComponent,
-    AlertComponent,
+    FileTreeComponent
   ],
   exports: [
     CardComponent,
-    FileTreeComponent,
-    SwitchComponent,
-    AlertComponent,
+    FileTreeComponent
   ]
 })
 export class SharedModule { }
